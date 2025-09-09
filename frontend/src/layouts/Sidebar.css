@@ -1,0 +1,8 @@
+.sidebar{
+    width: 260px;
+    height: 100%;
+    background-color: var(--secondary-background);
+    display: flex;
+    flex-direction: column;
+    border-left: var(--border);
+}

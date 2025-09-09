@@ -1,0 +1,21 @@
+.contact-form {
+    width: 700px;
+    margin: 0 auto;
+    background-color: var(--secondary-background);
+    padding: 16px;
+    border-radius: 10px;
+    border: var(--border);
+
+    textarea {
+        resize: none;
+        height: 120px;
+    }
+
+    button {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+    }
+}

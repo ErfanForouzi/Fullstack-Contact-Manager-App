@@ -1,0 +1,19 @@
+html {
+    --border: 1px solid #ccc;
+    --secondary-background: #f4f6f6;
+    --list-link-color: #445;
+    --icon-background: #ddd;
+    --icon-color: #222;
+    --theme-changer-color: black;
+    --active-icon-background: #ddd;
+    --active-icon-color: #222;
+}
+
+html[data-bs-theme="dark"] {
+    --border: 1px solid #555;
+    --secondary-background: #393a3b;
+    --list-link-color: #cdd;
+    --icon-background: #222;
+    --icon-color: #ddd;
+    --theme-changer-color: yellow;
+}

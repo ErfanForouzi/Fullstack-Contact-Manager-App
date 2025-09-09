@@ -1,0 +1,5 @@
+export const SET_THEME = "setTheme"
+export const SET_PAGE_TITLE = "setPageTitle"
+export const SET_CONTACTS = "setContacts"
+export const SET_IS_LOADING= "setIsLoading"
+export const SET_LOADING_ERROR = "setLoadingError"
