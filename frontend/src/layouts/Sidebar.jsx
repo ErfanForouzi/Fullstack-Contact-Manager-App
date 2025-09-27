@@ -1,4 +1,4 @@
-import ContactsList from "../components/ContactsList/ContactsList";
+import ContactsList from "../components/contact/ContactsList";
 import Search from "../components/Search/Search";
 import ThemeChanger from "../components/ThemeChanger/ThemeChanger";
 import "./Sidebar.css";

@@ -1,5 +1,5 @@
 import { useAppContext } from "../../context/AppContext"
-import ListItem from "../ListItem/ListItem"
+import ListItem from "./ListItem"
 import Loading from "../Loading/Loading"
 import LoadingError from "../LoadingError/LoadingError"
 import "./ContactsList.css"

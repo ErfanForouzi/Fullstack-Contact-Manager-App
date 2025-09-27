@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { setPageTitle } from "../context/appReducer";
 import { useAppContext } from "../context/AppContext";
+import { setPageTitle } from "../context/appReducer";
 import { Helmet } from "react-helmet-async";
 
 export default function WelcomePage() {

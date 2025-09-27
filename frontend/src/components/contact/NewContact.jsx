@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { useAppContext } from "../../context/AppContext";
-import { setContacts, setPageTitle } from "../../context/appReducer";
-import ContactForm from "../ContactForm/ContactForm";
-import { toast } from "react-toastify";
-import { createContact } from "../../utils/httpRequests";
 import { useNavigate,useSearchParams } from "react-router-dom";
+import { useAppContext } from "../../context/AppContext";
+import { toast } from "react-toastify";
+import { setContacts, setPageTitle } from "../../context/appReducer";
+import ContactForm from "./ContactForm";
+import { createContact } from "../../utils/httpRequests";
 import { Helmet } from "react-helmet-async";
 
 export default function NewContact() {

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { useAppContext } from "../../context/AppContext";
 import { setContacts, setPageTitle } from "../../context/appReducer";
-import ContactForm from "../ContactForm/ContactForm";
+import ContactForm from "./ContactForm";
 import { getContactById, updateContact } from "../../utils/httpRequests";
-import { useNavigate, useParams } from "react-router-dom";
 import Loading from "../Loading/Loading";
 import LoadingError from "../LoadingError/LoadingError";
 import { toast } from "react-toastify";

@@ -1,7 +1,7 @@
 import express from "express";
 import "dotenv/config";
 
-import sequelize from "./utils/db.js";
+import sequelize from "./config/db.js";
 import Contact from "./models/ContactModel.js";
 import contactRoutes from "./routes/contactRoutes.js";
 import contacts from "./testData.js";

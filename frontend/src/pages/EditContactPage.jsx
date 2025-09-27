@@ -1,4 +1,4 @@
-import EditContact from "../components/EditContact/EditContact";
+import EditContact from "../components/contact/EditContact";
 
 
 export default function EditContactPage() {

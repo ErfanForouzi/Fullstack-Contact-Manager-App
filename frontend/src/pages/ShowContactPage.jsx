@@ -1,4 +1,4 @@
-import ShowContact from "../components/ShowContact/ShowContact";
+import ShowContact from "../components/contact/ShowContact";
 
 export default function ShowContactPage() {
   return (

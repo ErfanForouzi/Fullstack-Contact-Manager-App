@@ -12,10 +12,10 @@ import Loading from "../Loading/Loading";
 import LoadingError from "../LoadingError/LoadingError";
 import { MdFace } from "react-icons/md";
 import ModalC from "../Modal/Modal";
-
-import "./ShowContact.css";
 import { toast } from "react-toastify";
 import { Helmet } from "react-helmet-async";
+import "./ShowContact.css";
+
 
 
 export default function ShowContact() {

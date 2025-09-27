@@ -1,5 +1,5 @@
-import { MdPerson } from "react-icons/md";
 import {NavLink, useSearchParams} from "react-router-dom"
+import { MdPerson } from "react-icons/md";
 export default function ListItem({contact}){
     const [searchParams,setSearchParams] = useSearchParams();
     const query = searchParams.get("q") ? `?q=${searchParams.get("q")}` : ''

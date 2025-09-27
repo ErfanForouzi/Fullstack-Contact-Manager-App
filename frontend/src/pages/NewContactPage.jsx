@@ -1,4 +1,4 @@
-import NewContact from "../components/NewContact/NewContact";
+import NewContact from "../components/contact/NewContact";
 
 export default function NewContactPage() {
   return (
